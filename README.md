@@ -21,6 +21,10 @@ A style guide need to be decided for the project. Here are some examples:
 
 Or perhaps a good idea is to create a custom iOS style guide that can be used in all future projects
 
+One idea is to use an auto-formatter
+ - http://clang.llvm.org/docs/ClangFormat.html
+ - https://github.com/travisjeffery/ClangFormat-Xcode
+
 ## Code reviews
 Code reviews are performed by pull requests. It is never allowed to merge your own pull request. Code reviews are NOT personal, they are not to be taken as an insult or blame on someones work. They are to help the project and increase overall quality. Be humble when reviewing, but be accurate with the content. If you think something is incorrect, make a comment rather then let it pass, but remember to help instead of blame. Remember this quote "not too rough, nor too loppy."
 
@@ -39,9 +43,10 @@ When creating a pull request, please consider the following:
 1. Remove all unnecessary print outs
 2. Remove all unused and outcommented code
 3. Make sure the code conforms to the styleguide
-3. Make sure the feature is thoroughly testead
-4. Rebase your feature against develop
-5. Perform a pull request with the following:
+3. Make sure the feature is thoroughly tested
+4. Check your commit messages and make sure they are reasonable, "fix stuff" is not.
+5. Rebase your feature against develop
+6. Perform a pull request with the following:
     - Purpose/description of the pull request
     - List of features/changes made in the pull requests
     - Steps to test the pull request
@@ -67,6 +72,9 @@ This is the most important part of developing. Consider the following when revie
 5. Accept the pull requsst
 6. Delete the feature branch
 
+## Cusom build phase
+
+A biuld phase is made to sync colors and strings from android bla bla...
 
 ## Delivering a new version
 Perform the following steps when creating a new delivery:
