@@ -47,6 +47,13 @@ When creating a pull request, please consider the following:
     - Steps to test the pull request
     - Link to corresponding feature card on (trello?)
 
+## Delivering a new version
+Perform the following steps when creating a new delivery:
+1. Make sure the current state of develop is ready for delivery
+2. Merge delivery into the master branch
+3. Create a tag on the master branch explaining the delivery. For example "AppStore_V1.0.3"
+
+
 
 ### Reviewing a pull request
 This is the most important part of developing. Consider the following when reviewing:
@@ -66,11 +73,4 @@ This is the most important part of developing. Consider the following when revie
 4. Verify that the pull request is rebased with latest develop, new things could have been added to develop after the pull request was made.
 5. Accept the pull requsst
 6. Delete the feature branch
-
-## Delivering a new version
-Perform the following steps when creating a new delivery:
-1. Make sure the current state of develop is ready for delivery
-2. Merge delivery into the master branch
-3. Create a tag on the master branch explaining the delivery. For example "AppStore_V1.0.3"
-
 
