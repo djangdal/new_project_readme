@@ -72,3 +72,5 @@ Perform the following steps when creating a new delivery:
 1. Make sure the current state of develop is ready for delivery
 2. Merge delivery into the master branch
 3. Create a tag on the master branch explaining the delivery. For example "AppStore_V1.0.3"
+
+
