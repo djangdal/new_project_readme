@@ -26,7 +26,7 @@ One idea is to use an auto-formatter
  - https://github.com/travisjeffery/ClangFormat-Xcode
 
 ## Code reviews
-Code reviews are performed by pull requests. It is never allowed to merge your own pull request. Code reviews are NOT personal, they are not to be taken as an insult or blame on someones work. They are to help the project and increase overall quality. Be humble when reviewing, but be accurate with the content. If you think something is incorrect, make a comment rather then let it pass, but remember to help instead of blame. Remember this quote "not too rough, nor too loppy."
+Code reviews are performed by pull requests. It is never allowed to merge your own pull request. Code reviews are NOT personal, they are not to be taken as an insult or blame on someones work. They are to help the project and increase overall quality. Be humble when reviewing, but be accurate with the content. If you think something is incorrect, make a comment rather then let it pass, but remember to help instead of blame. Remember this quote "not too rough, nor too sloppy."
 
 Reviewing pull requests might be more important than opening your own. Pull request are not supposed to pile up. Before creating one, you review one if it exists. Reviewing pull requests isn’t something that we should be doing in our spare time or when we are idle - it is part of your daily workflow. You should make a habit out of helping your colleagues to ship great features and quality code as they should help you to do the same. And remember that giving your attention and time to review the work of someone else is the greatest proof that you care about his work.
 
